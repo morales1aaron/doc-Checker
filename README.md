@@ -3,6 +3,8 @@ A checker to read through docs and make sure they match with the tongue and quil
 
 ===============================================================
 
+**Don't push the build files, only the work files**
+
 End Goals of Program
 
 -Have a UI
