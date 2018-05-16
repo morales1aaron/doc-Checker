@@ -1,9 +1,0 @@
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\bin\doc_CheckerWeb.dll.config
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\bin\doc_CheckerWeb.dll
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\bin\doc_CheckerWeb.pdb
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\obj\Debug\doc_CheckerWeb.csprojResolveAssemblyReference.cache
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\obj\Debug\doc_CheckerWeb.csproj.CoreCompileInputs.cache
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\obj\Debug\doc_CheckerWeb.dll
-C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_CheckerWeb\obj\Debug\doc_CheckerWeb.pdb

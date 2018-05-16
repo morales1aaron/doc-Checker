@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ProjectItem Type="Microsoft.VisualStudio.SharePoint.OfficeApp" DefaultFile="doc_Checker.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="AppPackage" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
-  <Files>
-    <ProjectItemFile Source="doc_Checker.xml" Type="AppPackage" />
-  </Files>
-  <ExtensionData>
-    <ExtensionDataItem Key="OfficeAppManifestRelativePath" Value="doc_CheckerManifest\doc_Checker.xml" />
-  </ExtensionData>
-</ProjectItem>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checker_app", "checker_app\checker_app.csproj", "{34F80161-1282-47D4-8F10-E865B1E4E869}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "checker_appWeb", "checker_appWeb\checker_appWeb.csproj", "{0CD777F7-40C7-4739-823E-B339DA752F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34F80161-1282-47D4-8F10-E865B1E4E869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F80161-1282-47D4-8F10-E865B1E4E869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F80161-1282-47D4-8F10-E865B1E4E869}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{34F80161-1282-47D4-8F10-E865B1E4E869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F80161-1282-47D4-8F10-E865B1E4E869}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F80161-1282-47D4-8F10-E865B1E4E869}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0CD777F7-40C7-4739-823E-B339DA752F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD777F7-40C7-4739-823E-B339DA752F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD777F7-40C7-4739-823E-B339DA752F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD777F7-40C7-4739-823E-B339DA752F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70E633C4-478A-480E-A7F4-F0CD49E4A891}
+	EndGlobalSection
+EndGlobal
