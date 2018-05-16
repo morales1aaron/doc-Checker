@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\doc_CheckerManifest.xml
+C:\Users\moral\Documents\Summer_Project\doc-Checker\doc_Checker\doc_Checker\bin\Debug\doc_Checker.debugapp
