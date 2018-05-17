@@ -121,6 +121,8 @@
     }
 
     /*
+    ___This commented out stuff is just some stuff I saw online and wanted to try out but it doesnt work.
+
     $('#format-selected').submit(function (ev) {
         /*
         ev.preventDefault(); // to stop the form from submitting
