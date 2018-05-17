@@ -32,7 +32,14 @@
             <br /><br />
             <div class="ms-font-xl ms-fontColor-neutralTertiary">Select some text</div>
             <p class="ms-font-m-plus ms-fontColor-neutralTertiary" id="template-description"></p>
-            <div class="ms-font-m"><a target="_blank" class="ms-Link ms-Link--hero" href="https://go.microsoft.com/fwlink/?LinkId=276812">Find more samples online...</a></div>
+            <form id="format-selected" action="correct-doc">
+                <h3 id="form_title">Pick Format Type</h3>
+                <input type="radio" name="doc-format" value="format1" />format1<br />
+                <input type="radio" name="doc-format" value="format2" />format2<br />
+                <input type="radio" name="doc-format" value="format3" />foramt3<br />
+                <br />
+                <input type="submit" value="Submit" />
+            </form>
             <br /><br />
 
             <button class="ms-Button ms-Button--primary" id="highlight-button">
@@ -40,13 +47,6 @@
                 <span class="ms-Button-label" id="button-text"></span>
                 <span class="ms-Button-description" id="button-desc"></span>
             </button>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="ms-Grid ms-bgColor-themeSecondary">
-            <div class="ms-Grid-row">
-                <div class="ms-Grid-col ms-u-sm12 ms-u-md12 ms-u-lg12"> <div class="ms-font-xl ms-fontColor-white">Contoso</div></div>
-            </div>
         </div>
     </div>
 

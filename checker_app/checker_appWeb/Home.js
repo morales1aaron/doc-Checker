@@ -32,7 +32,7 @@
             $('#highlight-button').click(hightlightLongestWord);
         });
     };
-
+    
     function loadSampleData() {
         // Run a batch operation against the Word object model.
         Word.run(function (context) {
@@ -51,6 +51,7 @@
         })
         .catch(errorHandler);
     }
+    
 
     function hightlightLongestWord() {
         Word.run(function (context) {
@@ -118,4 +119,21 @@
         messageBanner.showBanner();
         messageBanner.toggleExpansion();
     }
+
+    /*
+    $('#format-selected').submit(function (ev) {
+        /*
+        ev.preventDefault(); // to stop the form from submitting
+        // Validations go here 
+        this.submit(); // If all the validations succeeded
+        *//*
+
+        body.clear();
+        // Queue a command to insert text into the end of the Word document body.
+        body.insertText(
+            $('input[name="doc-format"]:checked').val(),
+            Word.InsertLocation.end);
+    });*/
 })();
+
+
