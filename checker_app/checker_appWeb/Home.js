@@ -43,7 +43,7 @@
             body.clear();
             // Queue a command to insert text into the end of the Word document body.
             body.insertText(
-                "This is a sample text inserted in the document",
+                "I changed this text as you can see boiiii",
                 Word.InsertLocation.end);
 
             // Synchronize the document state by executing the queued commands, and return a promise to indicate task completion.
