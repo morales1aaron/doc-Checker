@@ -30,6 +30,7 @@
 
             // Add a click event handler for the highlight button.
             $('#highlight-button').click(hightlightLongestWord);
+            $('#doc-eval').click(evaluateDoc);
         });
     };
     
@@ -90,6 +91,27 @@
         .catch(errorHandler);
     } 
 
+    function evaluateDoc() {
+        //gets the value of the drop down list
+        var format = $('#doc-format').val();
+
+        //has the word doc run the text change code
+        Word.run(function (context) {
+            // Create a proxy object for the document body.
+            var body = context.document.body;
+
+            // Queue a commmand to clear the contents of the body.
+            body.clear();
+            // Queue a command to insert text into the end of the Word document body.
+            body.insertText(
+                format,
+                Word.InsertLocation.end);
+
+            // Synchronize the document state by executing the queued commands, and return a promise to indicate task completion.
+            return context.sync();
+        })
+            .catch(errorHandler);
+    }
 
     function displaySelectedText() {
         Office.context.document.getSelectedDataAsync(Office.CoercionType.Text,

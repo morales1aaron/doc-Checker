@@ -27,23 +27,27 @@
 <body>
     <div id="content-main">
         <div class="padding">
+            <!--
             <br />
             <p class="ms-font-xxl ms-fontColor-neutralSecondary ms-fontWeight-semilight">Sample</p>
             <br /><br />
             <div class="ms-font-xl ms-fontColor-neutralTertiary">Select some text</div>
-            <p class="ms-font-m-plus ms-fontColor-neutralTertiary" id="template-description"></p>
+            <p class="ms-font-m-plus ms-fontColor-neutralTertiary" id="template-description"></p>-->
 
-            <!-- below is the form that I made. It has three uptions and the form tags is what it uses to group the info together. 
-                I think you need to toy with the form id and action to get the info-->
-            <form id="format-selected" action="correct-doc">
-                <h3 id="form_title">Pick Format Type</h3>
-                <!-- the name id for the radios group them together as one set of radio buttons-->
-                <input type="radio" name="doc-format" value="format1" />format1<br />
-                <input type="radio" name="doc-format" value="format2" />format2<br />
-                <input type="radio" name="doc-format" value="format3" />foramt3<br />
-                <br />
-                <input type="submit" value="Submit" />
-            </form>
+            
+            <h3 class="ms-fontColor-themeDark" id="form_title">Pick Format Type</h3>
+            <!-- this is where the dropdown goes. The value is what will be sent to the program-->
+            <select id="doc-format">
+                <option value="format1">Format1</option>
+                <option value="format2">Format2</option>
+                <option value="format3">Format3</option>
+            </select>
+            <br /><br />
+            <!-- button code here. It is not a form, it just tells the code when to update but doesn't sent the info as a packet to the js-->
+            <button type="button" class="ms-Button ms-Button--primary" id="doc-eval">
+                <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--plus"></i></span>
+                <span class="ms-Button-label">Evaluate</span>
+            </button>
             <br /><br />
 
             <button class="ms-Button ms-Button--primary" id="highlight-button">
